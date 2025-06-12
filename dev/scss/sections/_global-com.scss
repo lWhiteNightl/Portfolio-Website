@@ -1,0 +1,48 @@
+/* =============
+    Communication
+============= */
+@use "../helpers";
+
+
+#comms{
+    text-align: center;
+
+    #comms-content{
+        @include helpers.lg{
+            width: 992px;
+            margin: 0 auto;
+        }
+
+        #comms-title{
+            @include helpers.md{
+                display: flex;
+                justify-content: center;
+            }
+
+            #comms-first-title{
+                @include helpers.md{
+                    margin-right: 16px;
+                }
+            }
+        }
+
+
+        p{
+            margin: 24px 0px 48px;
+    
+            @include helpers.md{
+                padding: 0 8vw;
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    #comms-img{
+        @include helpers.xl{
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+
+    
+}

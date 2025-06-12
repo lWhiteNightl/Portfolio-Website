@@ -1,0 +1,47 @@
+/* =============
+    Buttons
+============= */
+@use "../helpers";
+
+a{
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+button{
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.nightBlue-btn{
+    background-color: var(--nightBlue);
+    color: var(--white);
+    font-size: helpers.rem-calc(14);
+    font-weight: 600;
+    padding: 22px 36px;
+    border-radius: 6px;
+    border: none;
+
+    //code for week 4
+    display: inline-block;
+
+    &:hover{
+        background-color: var(--aqua);
+        color: var(--nightBlue);
+    }
+}
+
+.nightBlue-btn:link, .nightBlue-btn:visited{
+    background-color: var(--nightBlue);
+    color: var(--white);
+    font-size: helpers.rem-calc(14);
+    font-weight: 600;
+    padding: 22px 36px;
+    border-radius: 6px;
+    border: none;
+
+    &:hover, &:active{
+        background-color: var(--aqua);
+        color: var(--nightBlue);
+    }
+}
