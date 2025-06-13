@@ -23,6 +23,7 @@
     
         ul{
 
+            margin-top: 80px;
             @include helpers.md{
                 display: grid;
                 grid-template-columns: 50% auto;
@@ -42,8 +43,8 @@
                     width: 52px;
 
                     @include helpers.md{
-                        height: 60px;
-                    width: 60px;
+                        height: auto;
+                        width: 50px;
                     }
                 }
 

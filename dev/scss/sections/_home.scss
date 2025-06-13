@@ -1,5 +1,5 @@
 /* =============
-    Hero
+    Home
 ============= */
 @use "../helpers";
 
@@ -124,8 +124,11 @@
             }
 
             .img-scaler{
-                border-radius: 50%;
-                width: 120%;
+                 border-radius: 50%;
+
+                @include helpers.md{
+                    width: 100%;
+                }
             }
             
         }

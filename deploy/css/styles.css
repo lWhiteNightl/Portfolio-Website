@@ -463,7 +463,7 @@ textarea {
     Footer
 ============= */
 /* =============
-    Hero
+    Home
 ============= */
 #hero {
   background-color: var(--lilyWhite);
@@ -581,7 +581,11 @@ textarea {
 }
 #hero #hero-content-container aside .img-scaler {
   border-radius: 50%;
-  width: 120%;
+}
+@media (min-width: 768px) {
+  #hero #hero-content-container aside .img-scaler {
+    width: 100%;
+  }
 }
 
 /* =============
@@ -896,44 +900,53 @@ textarea {
 /* =============
     Communication
 ============= */
-#comms {
+@media (min-width: 768px) {
+  #resume {
+    padding: 30px 200px;
+  }
+}
+#resume section .section-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+#resume section .contact {
+  margin: 24px 0 40px;
   text-align: center;
 }
-@media (min-width: 992px) {
-  #comms #comms-content {
-    width: 992px;
-    margin: 0 auto;
-  }
+#resume section ul li {
+  margin-bottom: 24px;
+}
+#resume section ul li h2 {
+  color: var(--nightBlue);
+  font-size: 1.5625rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#resume section ul li h3 {
+  color: var(--nightBlue);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+#resume section ul li .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @media (min-width: 768px) {
-  #comms #comms-content #comms-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  #resume section ul li .row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 16px;
   }
 }
-@media (min-width: 768px) {
-  #comms #comms-content #comms-title #comms-first-title {
-    margin-right: 16px;
-  }
-}
-#comms #comms-content p {
-  margin: 24px 0px 48px;
-}
-@media (min-width: 768px) {
-  #comms #comms-content p {
-    padding: 0 8vw;
-    margin-bottom: 24px;
-  }
-}
-@media (min-width: 1200px) {
-  #comms #comms-img {
-    width: 1200px;
-    margin: 0 auto;
-  }
+#resume section ul li .body-grey-text {
+  font-size: 0.9375rem;
+  margin-top: 10px;
 }
 
 /* =============
@@ -954,6 +967,10 @@ textarea {
   #works #works-title .works-p {
     padding: 0 38vw;
   }
+}
+#works ul img {
+  width: 48px;
+  height: auto;
 }
 @media (min-width: 768px) {
   #works ul {
@@ -1166,6 +1183,9 @@ textarea {
 #about section .about-p {
   margin: 24px 0 40px;
 }
+#about section ul {
+  margin-top: 80px;
+}
 @media (min-width: 768px) {
   #about section ul {
     display: -ms-grid;
@@ -1193,8 +1213,8 @@ textarea {
 }
 @media (min-width: 768px) {
   #about section ul li img {
-    height: 60px;
-    width: 60px;
+    height: auto;
+    width: 50px;
   }
 }
 #about section ul li h2 {

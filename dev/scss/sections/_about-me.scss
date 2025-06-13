@@ -26,6 +26,11 @@
 
     ul{
 
+        img{
+            width: 48px;
+            height: auto;
+        }
+
         @include helpers.md{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
