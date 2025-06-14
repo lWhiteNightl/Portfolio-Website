@@ -125,6 +125,7 @@
 
             .img-scaler{
                  border-radius: 50%;
+                 border: 10px solid var(--white);
 
                 @include helpers.md{
                     width: 100%;

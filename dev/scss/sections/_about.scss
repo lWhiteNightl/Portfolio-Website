@@ -17,7 +17,7 @@
     }
 
     section{
-        .about-p{
+        .intro{
             margin: 24px 0 40px;
         }
     
@@ -60,6 +60,21 @@
 
     aside{
         margin-top: 68px;
+        display: flex;
+        justify-content: center;  // centers horizontally
+        align-items: center;
+
+        img{
+            border-radius: 25%;
+            width: 70%;
+            height: auto; 
+            border: 10px solid var(--mintGreen);
+
+            @include helpers.md{
+                width: 90%;
+                height: auto;
+            }
+        }
     }
 
    

@@ -1,0 +1,32 @@
+/* =============
+    Newsletter
+============= */
+@use "../helpers";
+
+#contact {
+  padding: 64px 24px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+
+  .section-title {
+    color: var(--nightBlue);
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    color: var(--nightBlue);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 auto;
+    display: inline-block;
+    background: var(--mintGreen);
+    padding: 12px 32px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+
+}
