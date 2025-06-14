@@ -119,7 +119,7 @@
 
 
 
-        #card-1{
+        #ass-card-1{
             @include helpers.md{
                 grid-area: card-1;
             }
@@ -129,7 +129,7 @@
             }
         }
 
-        #card-2{
+        #ass-card-2{
             @include helpers.md{
                 grid-area: card-2;
             }
@@ -139,7 +139,7 @@
             }
         }
 
-        #card-3{
+        #ass-card-3{
             @include helpers.md{
                 grid-area: card-3;
             }

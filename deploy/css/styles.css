@@ -835,27 +835,27 @@ header #header-content #main-nav {
   margin: 20px 0 16px;
 }
 @media (min-width: 768px) {
-  #associations #package-card-container #card-1 {
+  #associations #package-card-container #ass-card-1 {
     grid-area: card-1;
   }
 }
-#associations #package-card-container #card-1 .package-card-img {
+#associations #package-card-container #ass-card-1 .package-card-img {
   background-image: url("../img/associations/ass1.jpg");
 }
 @media (min-width: 768px) {
-  #associations #package-card-container #card-2 {
+  #associations #package-card-container #ass-card-2 {
     grid-area: card-2;
   }
 }
-#associations #package-card-container #card-2 .package-card-img {
+#associations #package-card-container #ass-card-2 .package-card-img {
   background-image: url("../img/associations/ass2.jpg");
 }
 @media (min-width: 768px) {
-  #associations #package-card-container #card-3 {
+  #associations #package-card-container #ass-card-3 {
     grid-area: card-3;
   }
 }
-#associations #package-card-container #card-3 .package-card-img {
+#associations #package-card-container #ass-card-3 .package-card-img {
   background-image: url("../img/associations/ass3.png");
 }
 
@@ -964,17 +964,17 @@ header #header-content #main-nav {
         grid-template-areas: "card-1 card-1 card-2 card-2" "...... card-3 card-3 .....";
     gap: 24px;
   }
-  #project ul > #card-1 {
+  #project ul > #ass-card-1 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
   }
-  #project ul > #card-2 {
+  #project ul > #ass-card-2 {
     -ms-grid-row: 1;
     -ms-grid-column: 5;
     -ms-grid-column-span: 3;
   }
-  #project ul > #card-3 {
+  #project ul > #ass-card-3 {
     -ms-grid-row: 3;
     -ms-grid-column: 3;
     -ms-grid-column-span: 3;
@@ -986,17 +986,17 @@ header #header-content #main-nav {
     grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "card-1 card-2 card-3";
   }
-  #project ul > #card-1 {
+  #project ul > #ass-card-1 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
   }
-  #project ul > #card-2 {
+  #project ul > #ass-card-2 {
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
   }
-  #project ul > #card-3 {
+  #project ul > #ass-card-3 {
     -ms-grid-row: 1;
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
@@ -1042,17 +1042,17 @@ header #header-content #main-nav {
   }
 }
 @media (min-width: 768px) {
-  #associations #package-card-container #card-1 {
+  #associations #package-card-container #ass-card-1 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
   }
-  #associations #package-card-container #card-2 {
+  #associations #package-card-container #ass-card-2 {
     -ms-grid-row: 1;
     -ms-grid-column: 3;
     -ms-grid-column-span: 2;
   }
-  #associations #package-card-container #card-3 {
+  #associations #package-card-container #ass-card-3 {
     -ms-grid-row: 2;
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
@@ -1089,17 +1089,17 @@ header #header-content #main-nav {
   }
 }
 @media (min-width: 1200px) {
-  #associations #package-card-container #card-1 {
+  #associations #package-card-container #ass-card-1 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
   }
-  #associations #package-card-container #card-2 {
+  #associations #package-card-container #ass-card-2 {
     -ms-grid-row: 1;
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
   }
-  #associations #package-card-container #card-3 {
+  #associations #package-card-container #ass-card-3 {
     -ms-grid-row: 1;
     -ms-grid-column: 5;
     -ms-grid-column-span: 1;
