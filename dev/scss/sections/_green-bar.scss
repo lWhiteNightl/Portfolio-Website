@@ -1,0 +1,42 @@
+/* =============
+    Green Bar
+============= */
+@use "../helpers";
+
+#green-bar {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  @include helpers.md {
+     width: 100%;
+  }
+  background: var(--mintGreen, #B0DB9C);
+  color: var(--nightBlue, #18181A);
+  padding: 16px;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  h5 {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  button {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  color: var(--nightBlue);
+  font-size: helpers.rem-calc(20);
+
+  &:hover {
+    color: var(--white);
+  }
+}
+}
+
