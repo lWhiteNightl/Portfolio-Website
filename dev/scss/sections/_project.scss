@@ -4,10 +4,12 @@
 @use "../helpers";
 
 
-#works{
+#project{
 
     #works-title{
-        text-align: center;
+        .section-title{
+            margin: 0 10%;
+        }
 
         .works-p{
             margin: 12px 0 24px;

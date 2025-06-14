@@ -4,9 +4,10 @@
 @use "../helpers";
 
 #resume{
+    background-color: var(--lilyWhite);
 
     @include helpers.md{
-        padding: 30px 200px;
+        padding: 50px 20%;
     }
 
     section{
