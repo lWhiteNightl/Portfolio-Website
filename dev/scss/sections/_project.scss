@@ -6,22 +6,11 @@
 
 #project{
 
-    #works-title{
+    #project-title{
         .section-title{
             margin: 0 10%;
         }
 
-        .works-p{
-            margin: 12px 0 24px;
-
-            @include helpers.md{
-                padding: 0 20vw;
-            }
-
-            @include helpers.xl{
-                padding: 0 38vw;
-            }
-        }
     }
    
     

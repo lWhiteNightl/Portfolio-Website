@@ -2,3 +2,44 @@
     Navigation
 ============= */
 @use "../helpers";
+
+a{
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+#main-nav{
+    background-color: var(--white);
+    display: none;
+
+    @include helpers.md{
+        display: block;
+    }
+
+    ul{
+        @include helpers.md{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        li{
+            text-align: right;
+            border-bottom:1px solid var(--nightBlue);
+
+            @include helpers.md{
+                border-bottom: none;
+            }
+
+            a:link, a:visited{
+                color: var(--black);
+                padding: 20px;
+                display: inline-block;
+
+                &:hover, &:active{
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}

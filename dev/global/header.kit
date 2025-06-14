@@ -1,26 +1,27 @@
 <header>
-        <aside id="logo-container">
-            <a href="index.html"><img src="img/header/hill-logo.svg" alt="Hilltown Invitational logo"></a>
-        </aside>
-
+    <div id="header-content">
         <section id="burger-container">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 19" id="burger">
-                <g fill="#233D4d" fill-rule="evenodd">
-                    <rect width="40" height="3" rx="1.5" id="top"/>
-                    <rect y="8" width="40" height="3" rx="1.5" id="middle-logo" fill="#000"/>
-                    <rect y="16" width="40" height="3" rx="1.5" id="bottom"/>
-                </g>
-            </svg>
+            <button id="burger-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <button id="close-main-nav-btn"><i class="fa-regular fa-xmark"></i></button>
         </section>
 
-        <nav id="nav-container">
+        <section id="logo-container">
+            <a href="#home"><img src="deploy/img/associations/ruby.jpg" alt=""></a>
+        </section>
+
+        <nav id="main-nav">
             <ul>
-                <li class="<!-- $registration-selected? -->"><a href="registration.html">Registration</a> <div></div></li>
-                <li class="<!-- $sponsor-selected? -->"><a href="sponsor.html">Sponsors</a><div></div></li>
-                <li class="<!-- $courses-selected? -->"><a href="courses.html">Courses</a><div></div></li>
-                <li class="<!-- $accomodations-selected? -->"><a href="accommodations.html">Accommodations</a><div></div></li>   
-                <li class="<!-- $history-selected? -->"><a href="history.html">History</a><div></div></li>
-                <li class="<!-- $contact-selected? -->"><a href="contact.html">Contact</a><div></div></li>
+                <li><a href="#homet">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#associations">Associations</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+    </div>
+
 </header>
